@@ -1,0 +1,15 @@
+.LogoSection {
+  background: #669cb8;
+  min-height: 730px;
+}
+.pricetag {
+  position: relative;
+  left: 76%;
+  top: 9.2em;
+}
+
+.color_h2 {
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: #fff;
+}

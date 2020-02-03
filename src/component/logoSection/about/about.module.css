@@ -1,0 +1,9 @@
+.about {
+  background: #669cb8;
+}
+.about__padg {
+    max-width: 63%;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}

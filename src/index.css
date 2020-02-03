@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+a:hover {
+  text-decoration: none;
+}
+.row {
+  margin-right: 0px;
+}
+.col-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+a:not([href]):not([tabindex]) {
+  color: #fff;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    background-color: #333;
+    color: #fff;
+    }

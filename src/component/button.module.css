@@ -1,0 +1,17 @@
+.Look {
+  float: right;
+}
+.Look a {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3rem;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  transition: 0.1s cubic-bezier(0.44, 0.13, 0.48, 0.87);
+}
+.Look a:hover {
+  color: #fff;
+  border: none;
+  background-color: #242323;
+}

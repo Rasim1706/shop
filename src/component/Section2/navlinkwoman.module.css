@@ -1,0 +1,22 @@
+.NavLinks {
+  padding-top: 80px;
+  padding-left: 30px;
+  width: 150px;
+}
+.nav {
+  position: absolute;
+  left: 2.5em;
+  padding-top: 15px;
+}
+.NavLinks_item {
+  display: block;
+  font-size: 16px;
+  color: rgb(202, 199, 199);
+}
+.NavLinks_item:hover {
+  color: #000;
+}
+.Categories {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}

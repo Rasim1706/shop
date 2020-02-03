@@ -1,0 +1,20 @@
+.Woman {
+  padding-bottom: 200px;
+  background: #669cb8;
+}
+.logoFirm {
+  letter-spacing: 5px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 17px;
+  padding-top: 150px;
+}
+.Header__woman {
+  padding-top: 5px;
+  font-size: 32px;
+}
+.title {
+  padding-top: 6em;
+  color: #fff;
+  text-align: center;
+}

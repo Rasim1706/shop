@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Header from "./component/section-man/Header";
+import Section from "./component/Section2/section.js";
+import Menu from "./component/menu.js";
+import LogoPhoto from "./component/logoSection/logophoto.js";
+import About from "./component/logoSection/about/about";
+import Contact from "./component/logoSection/helper/contact";
+import { BrowserRouter, Route } from "react-router-dom";
 
-function App() {
+const App = props => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Menu />
+        <Route exact={true} path="/logophoto" render={() => <LogoPhoto />} />
+        <Route
+          path="/header"
+          render={() => (
+            <Header NavData={props.NavData}  />
+          )}
+        />
+        <Route path="/section" render={() => <Section />} />
+        <Route path="/about" render={() => <About />} />
+        <Route path="/contact" render={() => <Contact />} />
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
